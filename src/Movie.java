@@ -4,5 +4,5 @@ public class Movie {
     public String cha;
     public String jan;
     public int time;
-    public String age;
+    public int age;
 }

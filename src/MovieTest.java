@@ -6,9 +6,8 @@ public class MovieTest {
         mv.cha = "제이크 설리";
         mv.jan = "액션";
         mv.time = 192;
-        mv.age = "12세";
-        System.out.println(mv.title + "\t" + mv.day + "\t" + mv.cha + "\t" + mv.jan + "\t" + mv.time + "\t" + mv.age);
-
+        mv.age = 12;
+        System.out.println(mv.title + "\t" + mv.day + "\t" + mv.cha + "\t" + mv.jan + "\t" + mv.time + "\t" + mv.age + "세");
 
     }
 }

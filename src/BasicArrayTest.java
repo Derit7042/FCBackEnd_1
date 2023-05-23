@@ -18,7 +18,21 @@ public class BasicArrayTest {
         System.out.println(b[0].title + "\t" + b[0].price + "\t" + b[0].company + "\t" + b[0].author + "\t" + b[0].page + "\t" + b[0].isbn);
 
         b[1] = new Book();
+        b[1].title = "오라클";
+        b[1].price = 30000;
+        b[1].company = "한빛";
+        b[1].author = "박매일";
+        b[1].page = 500;
+        b[1].isbn = "11889900";
+        System.out.println(b[1].title + "\t" + b[1].price + "\t" + b[1].company + "\t" + b[1].author + "\t" + b[1].page + "\t" + b[1].isbn);
 
         b[2] = new Book();
+        b[2].title = "인공지능";
+        b[2].price = 30000;
+        b[2].company = "한빛";
+        b[2].author = "박매일";
+        b[2].page = 500;
+        b[2].isbn = "11889900";
+        System.out.println(b[2].title + "\t" + b[2].price + "\t" + b[2].company + "\t" + b[2].author + "\t" + b[2].page + "\t" + b[2].isbn);
     }
 }

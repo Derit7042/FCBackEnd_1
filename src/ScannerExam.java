@@ -31,5 +31,7 @@ public class ScannerExam {
         System.out.print("ISBN: ");
         String isbn = scan.nextLine();
         System.out.println("isbn = " + isbn);
+
+        scan.close();
     }
 }
